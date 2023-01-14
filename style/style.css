@@ -1,0 +1,175 @@
+Body{
+	font-family: 'Inter Tight', sans-serif;
+}
+
+p{
+	font-size: 12px;
+}
+.header{
+	background-color: #FFFAFA;
+	background-image: url(../image/header.png);
+	background-position: center;
+	background-size: 65%;
+}
+.container{
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 15px;
+}
+
+.nav{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.lahes_menu{
+	display: flex;
+}
+
+
+
+.menu_link{
+color: black;
+}
+.menu_item{
+list-style-type: none;
+}
+.menu_link{
+	text-decoration: none;
+   
+} 
+.menu_link:hover{
+border-bottom:1px solid #2F4F4F;
+padding: 1px;
+transition: 0.2s;
+}
+.header_logo{
+font-family: 'Dancing Script', cursive;
+font-size: 50px;
+}
+.header_info{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	text-align: center;
+}
+
+.job_logo{
+font-family: 'Open Sans', sans-serif;
+font-size: 40px;
+font-weight: 600;
+line-height: 38px;
+margin-top: 80px;
+text-align: center;
+color: #696969;
+}
+.presents{
+	display: flex;
+	flex-wrap: wrap;
+	padding: 7px;
+}
+.service_presents{
+	width: auto;
+	margin: 5px;
+	background-color: #DCDCDC;
+	border-radius: 18px;
+	position: relative;
+}
+.service_presents:hover{
+inline: 0.1px solid #fff;
+border-radius: 10%;
+background-color: #F5FFFA;
+transition: 0.3s;
+}
+.service_presents h2{
+	margin: auto;
+	text-align: center;
+	padding-bottom: 20px;
+}
+.job{
+	padding-top: 0.1px;
+	padding-bottom: 30px;
+	background-image: url(../image/header.png);
+}
+.job_presents{
+ width: 290px;
+ padding: 40px;
+ margin: 0 auto;
+ border: 1px;
+ border-radius: 18%;
+}
+.price_job p{
+text-align: center;
+}
+.read-more{
+	display: block;
+   color: black;
+	text-decoration: none;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-size: 20px;
+	border: 1px solid #FFFAFA;
+	background-color: #FFFAFA;
+	width: 50%;
+	margin: 30px auto 0 auto;
+	border-radius: 10px;
+	text-align: center;
+	align-items: center;
+}
+
+
+.service_presents p{
+text-align:center ;
+}
+
+
+
+
+.footer{
+	padding-top: 0.1px;
+	background-color: #FFFAFA;
+	background-image: url(../image/header.png);
+	background-position: center;
+	background-size: 30%;
+}
+.platform{
+	font-family: 'Open Sans', sans-serif;
+	text-align: center;
+	padding-top: 10px;
+	font-size: 30px;
+   font-weight: 600;
+   line-height: 38px;
+   color: #696969;
+}
+.footer_info{
+text-align: center;
+padding: 20px;
+}
+.fa-brands{
+	text-decoration: none;
+	color: #696969 ;
+	font-size: 50px;
+	padding-right: 30px;
+	padding-bottom: 30px;
+
+}
+.price{
+	margin-bottom: 10px;
+}
+.read-more-one{
+	display: block;
+   color: black;
+	text-decoration: none;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-size: 20px;
+	border: 1px solid #FFFAFA;
+	background-color: #FFFAFA;
+	width: 50%;
+	border-radius: 10px;
+	text-align: center;
+	align-items: center;
+	position: absolute;
+	bottom:10px ;
+	left: 90px;
+
+}
